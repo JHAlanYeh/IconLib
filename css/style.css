@@ -1,0 +1,16 @@
+.box {
+    width: 30px;
+    height: 30px;
+}
+
+.food {
+    background: #2F4859;
+}
+
+.traffic {
+    background: #0f0;
+}
+
+.medicine {
+    background: #00f;
+}
