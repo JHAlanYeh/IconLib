@@ -1,5 +1,5 @@
 $(function () {
-    if (window.location.pathname === '\\index.html') {
+    if (window.location.pathname === '/IconLib/') {
         fetch("https://jhalanyeh.github.io/IconLib/fileCount.json")
             .then(response => response.json())
             .then(json => {
