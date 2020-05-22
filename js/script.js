@@ -1,6 +1,6 @@
 $(function () {
     if (window.location.pathname === '/IconLib/') {
-        fetch("https://jhalanyeh.github.io/IconLib/fileCount.json")
+        fetch("https://jhalanyeh.github.io/IconLib/init.json")
             .then(response => response.json())
             .then(json => {
                 keys = Object.keys(json);
