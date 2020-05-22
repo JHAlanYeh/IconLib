@@ -1,5 +1,5 @@
 $(function () {
-    if (window.location.pathname === '/IconLib/') {
+    if (window.location.pathname === '/IconLib/' || window.location.pathname === '/IconLib/index.html') {
         fetch("https://jhalanyeh.github.io/IconLib/init.json")
             .then(response => response.json())
             .then(json => {
