@@ -1,3 +1,26 @@
+nav {
+    position: sticky !important;
+    color: #FFFFFF;
+    /* background-color: #919F89; */
+    z-index: 9999;
+}
+
+nav.header {
+    top: 0 !important;
+}
+
+nav.footer {
+    bottom: 0 !important;
+}
+
+nav.header:hover {
+    color: #cccccc !important;
+}
+
+nav.header:active {
+    color: #bbbbbb !important;
+}
+
 .box {
     width: 30px;
     height: 30px;
